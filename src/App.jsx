@@ -1,8 +1,11 @@
 import './App.css';
+import Compteur from './components/Compteur';
 import Movie from './components/Movie';
 
 function App() {
 	// partie logique du composant
+
+	console.log("Je suis APP et je m'éxécute a nouveau");
 
 	const movies = ['Terminator', 'Matrix', 'Star Wars', 'Inception'];
 
@@ -15,6 +18,7 @@ function App() {
 		<>
 			<h1>Films</h1>
 			<ul>{htmlMovies}</ul>
+			<Compteur />
 
 			<footer>Ceci est mon footer</footer>
 		</>

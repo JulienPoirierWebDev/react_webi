@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
-function Movie(props) {
+function Movie({ movie }) {
 	// partie logique
 
 	// partie visuelle
-	return <li>{props.movie}</li>;
+	return <li>{movie}</li>;
 }
 
 export default Movie;

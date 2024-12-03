@@ -1,0 +1,16 @@
+.card {
+	background-color: lightblue;
+	width: 50%;
+}
+
+.title {
+	color: blueviolet;
+}
+
+.paragraph {
+	line-height: 20px;
+}
+
+.img {
+	width: 100px;
+}

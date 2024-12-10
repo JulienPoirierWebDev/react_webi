@@ -10,6 +10,7 @@ function App() {
 		<>
 			<h1>Films</h1>
 
+			<Authentication />
 			<MoviesSearch />
 
 			<footer>Ceci est mon footer</footer>

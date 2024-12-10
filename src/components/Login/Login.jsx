@@ -1,16 +1,17 @@
+import InputContainer from '../InputContainer/InputContainer';
+
 const Login = () => {
 	return (
 		<div>
-			<div>
+			<InputContainer>
 				<label htmlFor='email'>Email</label>
 				<input type='email' id='email' name='email' />
-			</div>
+			</InputContainer>
 
-			<div>
+			<InputContainer>
 				<label htmlFor='password'>Mot de passe</label>
 				<input type='password' id='password' name='password' />
-			</div>
-
+			</InputContainer>
 			<button type='submit'>Se connecter</button>
 		</div>
 	);

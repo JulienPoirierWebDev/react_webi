@@ -4,4 +4,5 @@
 	align-items: center;
 	height: 100vh;
 	flex-wrap: wrap;
+	gap: 100px;
 }

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import Movie from './Movie/Movie';
 
-const MoviesContainer = () => {
+const MoviesSearch = () => {
 	const [movies, setMovies] = useState([]);
 
 	useEffect(() => {
@@ -32,4 +32,4 @@ const MoviesContainer = () => {
 	);
 };
 
-export default MoviesContainer;
+export default MoviesSearch;

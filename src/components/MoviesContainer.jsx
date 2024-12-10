@@ -7,12 +7,14 @@ const MoviesContainer = () => {
 	useEffect(() => {
 		async function getMovies() {
 			const response = await fetch(
-				'https://movies-api.julienpoirier-webdev.com/search/movies/termi'
+				'http://localhost:3000/query-movies/avengers'
 			);
 
 			const data = await response.json();
 
-			setMovies(data.results);
+			console.log(data.data.results);
+
+			setMovies(data.data.results);
 		}
 
 		getMovies();

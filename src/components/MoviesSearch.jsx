@@ -5,10 +5,10 @@ import SearchBar from './SearchBar/SearchBar.jsx';
 const MoviesSearch = () => {
 	const [movies, setMovies] = useState([]);
 
-
 	return (
 		<div>
 			<SearchBar setMovies={setMovies} />
+
 			{movies.map((movie) => {
 				return <Movie key={movie.id} movie={movie} />;
 			})}

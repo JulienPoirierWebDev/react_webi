@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { createContext, StrictMode, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
